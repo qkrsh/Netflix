@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-color: rgb(3, 3, 3);
+  }
+  
+  .Logo {
+    width: 140px;
+    height: 100%;
+  }
+  
+  .brand__logo {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+.container-head{
+   
+    width: 800px;
+    height: 40px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 20px;
+  }
+.threebox{
+    margin-top: 30px;
+    margin-left: 350px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+  .basic{
+      width: 120px;
+      height: 120px;
+      background-color: red;
+      color:white;
+      text-align: center;
+      padding-top: 45px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .standard{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .pre{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .leng{
+  }
