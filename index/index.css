@@ -147,7 +147,9 @@
     margin-top: 20px;
     margin-left: 400px;
   }
-  
+  .ad{
+    margin-right: 200px;
+  }
   .form__container {
     background-color: white;
     width: 90%;
@@ -313,6 +315,7 @@
   .FAQ__get__started__email {
     margin-top: 40px;
     text-align: center;
+    margin-left: 150px;
   }
   
   footer {
@@ -323,7 +326,7 @@
     flex-direction: column;
     gap: 20px;
     width: 800px;
-    margin-left: 400px;
+    margin-left: 550px;
   }
   
   .footer__row__2 {
