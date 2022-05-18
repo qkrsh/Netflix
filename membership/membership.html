@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
     <title>Netflix</title>
     <link rel="stylesheet" href="membership.css" />
     <link rel="icon" href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png">
@@ -46,21 +52,81 @@
             <div class="standard">스탠다드</div>
             <div class="pre">프리미엄</div>
         </div>
-        <div class="leng">
-            <div class="fee">월 요금<div>
-            </div>
-        </div>
-            <div class="qual">영상 화질</div>
-            <div class="pp">해상도</div>
-            <div class="che">TV,컴퓨터,스마트폰,태블릿으로 시청</div>
-        </div>
+        <div class="tab">
+         <table>
+           <tbody>
+             <tr>
+               <td class="fir">월 요금</td>
+               <td class="sec">9,500원</td>
+               <td class="sec">13,500원</td>
+               <td class="sec">17,000원</td>
+              </tr>
+              <tr>
+                <td class="fir">영상 화질</td>
+                <td class="sec"><div>좋음</div></td>
+                <td class="sec"><div>매우 좋음</div></td>
+                <td class="sec"><div>가장 좋음</div></td>
+              </tr>
+              <tr>
+                <td class="fir">해상도</td>
+                <td class="sec">480p</div></td>
+                <td class="sec"><div>1080p</div></td>
+                <td class="sec"><div>4K+HDR</div></td>
+                </tr>
+                <t>
+                  <td class="fir">TV, 컴퓨터, 스마트폰, 태블릿으로 시청</td>
+                  <td class="sec">예</td>
+                  <td class="sec">예</td>
+                  <td class="sec">예</td>
+                </t>
+              </tbody>
+              </table>
+          </div>
         </div>
         <div class="desc">HD(720p), 풀 HD(1080p), UHD(4K), HDR 화질 제공 여부는 사용하는 인터넷 서비스와 디바이스의 성능에 따라 달라질 수 있습니다.<br> 모든 콘텐츠가 모든 화질로 제공되지는 않습니다. 자세한 내용은 이용 약관을 확인하세요.<br>
-            <br>한집에 사는 사람들만 계정을 함께 이용할 수 있습니다. 프리미엄 멤버십은 동시접속 4명, 스탠다드 멤버십은 2명, <br>베이식 멤버십은 1명까지 가능합니다.</div>
-        <button class="next">next</button>
+            <br>한집에 사는 사람들만 계정을 함께 이용할 수 있습니다. 프리미엄 멤버십은 동시접속 4명, 스탠다드 멤버십은 2명, <br>베이식 멤버십은 1명까지 가능합니다.<br>
+            <button class="next">다음</button>
+          </div>
          </section>
     </main>
-    <section class="footer">
-    </section>
+
+    <footer>
+      <div class="footer__row__1">
+        <h4>질문이 있으신가요? Call 000-000-000-0000</h4>
+      </div>
+      <div class="footer__row__2">
+        <div class="column__1">
+          <p>자주 묻는 질문</p>
+          <p>쿠키 설정</p>
+        </div>
+        <div class="column__2">
+          <p>고객 센터</p>
+          <p>회사 정보</p>
+        </div>
+        <div class="column__3">
+          <p>이용 약관</p>
+        </div>
+        <div class="column__4">
+          <p>개인정보</p>
+
+        </div>
+      </div>
+      <div class="footer__row__3">
+        <div class="dropdown__container">
+          <i class="fas fa-globe"></i>
+          <select
+            name="languages"
+            id="languagesSelect"
+            class="language__drop__down"
+          >
+            <option value="english" selected>한국어</option>
+            <option value="hindi">English</option>
+          </select>
+        </div>
+      </div>
+      <div class="footer__row__4">
+        <p>넷플릭스 대한민국</p>
+      </div>
+    </footer>
 </body>
 </html>

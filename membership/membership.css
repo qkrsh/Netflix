@@ -48,7 +48,7 @@
   }
 .threebox{
     margin-top: 30px;
-    margin-left: 350px;
+    margin-left: 470px;
     width: 600px;
     display: flex;
     justify-content: space-between;
@@ -83,5 +83,89 @@
     font-size: 20px;
     font-weight: bold;
   }
-  .leng{
+  
+  footer {
+    padding: 2rem 1rem;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
   }
+  
+  .footer__row__2 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+    font-size: 15px;
+  }
+  .language__drop__down {
+    background: white;
+    border: none;
+    color: black;
+  }
+  .dropdown__container {
+    border: 1px solid black;
+    padding: 0.4rem;
+    background: white;
+    width: 180px;
+    height: 45px;
+    margin-left: 5%;
+  }
+
+td{
+  border-style: ridge;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+}
+
+ .fir{
+    width: 15%;
+    height: 50px;
+ }
+ .sec{
+   width: 10%;
+   text-align: center;
+ }
+
+ .desc{
+   font-size: 13px;
+   margin-left: 20%;
+   margin-top: 2%;
+ }
+ .next{
+   margin-top: 20px;
+   margin-left: 20%;
+   margin-bottom: 10%;
+   width: 440px;
+   height: 64px;
+   font-size: 30px;
+   background-color: red;
+   color:white;
+   border: white;
+ }
+
+ footer{
+   background-color: #d8d6d6;
+ }
+
+ .column__1{
+   margin-left: 5%;
+   margin-right: 10%;
+ }
+ .column__2{
+  margin-right: 10%;
+}
+.column__3{
+  margin-right: 10%;
+  margin-top: 10;
+}
+.column__4{
+  margin-right: 10%;
+}
+.footer__row__1{
+  margin-left: 5%;
+
+}
