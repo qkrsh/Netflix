@@ -125,7 +125,7 @@
   .email__input {
     border: none;
     background: transparent;
-    width: 80%;
+    width: 600px;
     height: 100%;
     padding-left: 7px;
   }
@@ -143,23 +143,20 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 800px;
     margin-top: 20px;
   }
   .email__form__container2 {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 15px;
-    width: 800px;
     margin-top: 20px;
   }
   
   .form__container {
+    display: flex;
     background-color: white;
-    width: 90%;
+    width: 800px;
     height: 70px;
-    position: relative;
   }
   .ad{
     display: flex;
@@ -327,7 +324,10 @@
     margin-top: 40px;
     text-align: center;
   }
-  
+  .ft{
+    display: flex;
+    justify-content: center;
+  }
   footer {
     border-top: 8px solid #333;
     padding: 2rem 1rem;
