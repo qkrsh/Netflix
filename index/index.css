@@ -158,6 +158,12 @@
     width: 800px;
     height: 70px;
   }
+  .form__container2 {
+    display: flex;
+    background-color: white;
+    width: 600px;
+    height: 70px;
+  }
   .ad{
     display: flex;
     justify-content: center;
