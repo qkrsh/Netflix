@@ -60,10 +60,14 @@
   .navbar__nav__items {
     display: flex;
   }
-  
+  .hee{
+    display: flex;
+    justify-content: center;
+  }
   .main-container {
     width: 100%;
     height: 80vh;
+   
   }
   
   .hero__bg__image {
@@ -91,12 +95,12 @@
   .hero__card {
     position: absolute;
     top: 20%;
-    margin-left: 30%;
     text-align: center;
     display: flex;
     flex-direction: column;
+
     gap: 10px;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 
   }
   
@@ -149,18 +153,19 @@
     gap: 15px;
     width: 800px;
     margin-top: 20px;
-    margin-left: 200px;
   }
-  .ad{
-    margin-right: 200px;
-  }
+  
   .form__container {
     background-color: white;
     width: 90%;
     height: 70px;
     position: relative;
   }
-  
+  .ad{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
  
   .primary__button {
     background-color: #dc030f;
@@ -177,11 +182,18 @@
     border-top: 8px solid #222;
     padding: 2rem 1rem;
     display: flex;
+    justify-content:center;
     height: 480px;
   }
-  
+  .typea{
+    display: flex;
+  }
+  .typeb{
+    display: flex;
+  }
+  .typeab{
+  }
   .feature__details {
-    margin-left: 300px;
     width: 600px;
     padding-top: 50px ;
   }
@@ -198,8 +210,6 @@
   }
   
   .feature__image__container {
-    width: 100px;
-    position: relative;
     height: 400px;
   }
 
@@ -212,7 +222,6 @@
   .feature__details2 {
     width: 600px;
     padding-top: 70px ;
-    margin-left: 500px;
   }
   
   .feature__title2 {
@@ -227,10 +236,8 @@
   }
   
   .feature__image__container2 {
-    width: 100px;
     position: relative;
     height: 400px;
-    margin-left: 200px;
   }
   .feature__2__poster__container {
     position: absolute;
@@ -247,7 +254,6 @@
     height: 60px;
     padding: 0.25rem 0.6rem;
     gap: 15px;
-    margin-left: 215px;
   }
   
   .poster__container {
@@ -289,6 +295,7 @@
     color: white;
   }
   
+
   .FAQ__visible {
     background-color: #303030;
     border-top: 1px solid black;
@@ -319,7 +326,6 @@
   .FAQ__get__started__email {
     margin-top: 40px;
     text-align: center;
-    margin-left: 150px;
   }
   
   footer {
@@ -330,7 +336,6 @@
     flex-direction: column;
     gap: 20px;
     width: 800px;
-    margin-left: 350px;
   }
   
   .footer__row__2 {
