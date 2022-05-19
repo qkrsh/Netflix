@@ -52,10 +52,20 @@
 
   }
   .blue{
-      width: 100%;
-      height: 100%;
+      width: 25px;
+      height: 25px;
   }
   .blth{
       position:absolute;
       margin-top: 50px;
+  }
+
+  .ring{
+    width: 30px;
+  }
+  .fa-solid{
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+
   }
