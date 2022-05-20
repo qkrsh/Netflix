@@ -32,6 +32,8 @@
   
   .language__drop__down {
     background: transparent;
+    margin-left: 7px;
+    font-size: 15px;
     border: none;
     color: white;
   }
