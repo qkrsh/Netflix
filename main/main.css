@@ -43,21 +43,38 @@
     width: 450px;
     justify-content: space-between;
   }
-
+   .bg__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-wrap: wrap;
+   }
+  
   .main-container{
-    
+    height: 100%;
+
+  }
+  .naee{
+    position: absolute;
+    top: 5%;
+    width: 800px;
+    height: 100%;
+    z-index: 10;
+
   }
   .hero__bg__image{
-    width: 100%;
-
+    width: 600px;
+    margin-top: 130px;
+    margin-left: 60px;
+    margin-bottom: 20px;
   }
   .blue{
       width: 25px;
       height: 25px;
   }
-  .blth{
-      position:absolute;
-      margin-top: 50px;
+  .bts{
+    margin-top: 30px;
+    width: 600px;
   }
 
   .ring{
@@ -68,4 +85,132 @@
     margin-right: 15px;
     margin-left: 15px;
 
+  }
+
+  .des1{
+    position: absolute;
+    top: 40%;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 35px;
+  }
+  .des2{
+    position: absolute;
+    top: 50%;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 20px;
+  }
+  .desc3{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .play{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 170px;
+    border: none;
+  }
+  .inf{
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    background-color: gray;
+    border: none;
+    margin-left: 10px;
+  }
+
+.context{
+  position: absolute;
+  width: 100%;
+  height: 288px;
+  background-color: transparent;
+}
+
+
+.aa{
+  display: flex;
+  justify-content: center;
+}
+
+
+  footer {
+    border-top: 8px solid #333;
+    padding: 2rem 1rem;
+    color: #757575;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 800px;
+  }
+  
+  .footer__row__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    font-size: 15px;
+  }
+  .overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 10%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 0%
+    );
+  }
+
+  .krdr{
+    position: absolute;
+    display: flex;  
+    flex-wrap: nowrap;
+    top: 20;
+  }
+
+  .ct1{
+    width: 280px;
+    height: 150px;
+    background-color: blue;
+    padding-right: 5px;
+  }
+  .ct2{
+    width: 280px;
+    height: 150px;
+    background-color: red;
+  }
+  .ct3{
+    width: 280px;
+    height: 150px;
+    background-color: black;
+  }
+  .ct4{
+    width: 280px;
+    height: 150px;
+    background-color: wheat;
+  }
+  .ct5{
+    width: 280px;
+    height: 150px;
+    background-color: saddlebrown;
+  }
+  .ct6{
+    width: 280px;
+    height: 150px;
+    background-color: darkgoldenrod;
+  }
+  .ct7{
+    width: 280px;
+    height: 150px;
+    background-color: greenyellow;
   }
